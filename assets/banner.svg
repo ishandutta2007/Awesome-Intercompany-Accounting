@@ -1,0 +1,21 @@
+<svg width="800" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1A2980" />
+      <stop offset="100%" stop-color="#26D0CE" />
+    </linearGradient>
+    <style>
+      .title { font: bold 40px sans-serif; fill: white; text-anchor: middle; }
+      .subtitle { font: 20px sans-serif; fill: white; text-anchor: middle; opacity: 0.8; }
+      @keyframes pulse {
+        0% { opacity: 0.8; }
+        50% { opacity: 1; }
+        100% { opacity: 0.8; }
+      }
+      .glow { animation: pulse 2s infinite; }
+    </style>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#bg)" rx="15" />
+  <text x="50%" y="45%" class="title glow">Awesome Intercompany Accounting</text>
+  <text x="50%" y="65%" class="subtitle">A curated list of top SaaS platforms and Open-Source projects</text>
+</svg>
